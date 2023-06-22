@@ -124,10 +124,20 @@ body {
     color: var(--main-color);
 }
 
+.team_title {
+    letter-spacing: 0.02em;
+}
+
 .team_section {
     background-color: #F4F4FD;
 }
 
 .team_item {
     background-color: #ffffff;
+}
+
+.team_text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
