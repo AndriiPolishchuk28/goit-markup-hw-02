@@ -1,0 +1,14 @@
+:root {
+    --main-font: "Roboto", sans-sarif;
+    --main-color: #2E2F42;
+}
+
+body {
+    font-family: var(--main-font);
+    color: var(--main-color);
+}
+
+.address_info {
+    color: #434455;
+    line-height: 1.5;
+}
