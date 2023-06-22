@@ -146,6 +146,10 @@ body {
     background-color: var(--main-color);
 }
 
+.span_footer {
+    color: #f4f4fd;
+}
+
 .text_footer {
     line-height: 1.5;
     color: #F4F4FD;
