@@ -8,7 +8,30 @@ body {
     color: var(--main-color);
 }
 
+a {
+    text-decoration: none;
+}
+
+ul li {
+        list-style-type: none;
+
+}
+
+.logo_name {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 1.16;
+}
+
 .address_info {
     color: #434455;
+    line-height: 1.5;
+}
+
+.nav_menu {
+    color: #2E2F42;
+    font-weight: 500;
     line-height: 1.5;
 }
