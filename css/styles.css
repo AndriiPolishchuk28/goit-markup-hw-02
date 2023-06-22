@@ -141,3 +141,15 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+.index_footer {
+    background-color: var(--main-color);
+}
+
+.text_footer {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
+
+
