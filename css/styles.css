@@ -10,6 +10,7 @@ body {
     --background-color: #FFFFFF;
     --logo-color: #4d5ae5;
     --background-cloud-color: #F4F4FD;
+    --option-text-color: #434455;
 }
 
 /* ul li {
@@ -176,7 +177,24 @@ body {
 .btn_item:focus {
     color: #ffffff;
     background-color: #404BBF
-
 }
 
+.option_title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+}
+
+.option_text{
+     line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--option-text-color);
+}
+
+.footer_portfolio{
+    background-color: var(--main-color);
+    
+}
 
