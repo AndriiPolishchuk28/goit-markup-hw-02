@@ -116,3 +116,18 @@ body {
     letter-spacing: 0.02em;
 }
 
+.third_section_title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--main-color);
+}
+
+.team_section {
+    background-color: #F4F4FD;
+}
+
+.team_item {
+    background-color: #ffffff;
+}
