@@ -11,13 +11,16 @@ body {
     --logo-color: #4d5ae5;
 }
 
-ul li {
+/* ul li {
         list-style-type: none;
-
-}
+} --------- чому не можна так задати значення, перевірка через класс хоче тільки? */
 
 .link {
     text-decoration: none;
+}
+
+.list {
+    list-style: none;
 }
 
 .logo_name {
@@ -37,8 +40,18 @@ ul li {
 
 .nav_menu {
     color: var(--main-color);
+    font-size: 16px;
     font-weight: 500;
+    letter-spacing: 0.02em;
     line-height: 1.5;
+}
+
+.nav_menu:hover {
+    color: #404bbf;
+}
+
+.nav_menu:focus {
+    color: #404bbf;
 }
 
 .span_logo {
