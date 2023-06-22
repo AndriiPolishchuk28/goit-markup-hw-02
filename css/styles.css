@@ -9,6 +9,7 @@ body {
     --main-color: #2E2F42;
     --background-color: #FFFFFF;
     --logo-color: #4d5ae5;
+    --background-cloud-color: #F4F4FD;
 }
 
 /* ul li {
@@ -156,6 +157,25 @@ body {
     letter-spacing: 0.02em;
 }
 
+.btn_item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--logo-color);
+    background-color: var(--background-cloud-color);
+    cursor: pointer;
+}
 
+.btn_item:hover {
+    color: #ffffff;
+    background-color: #404BBF
+}
+
+.btn_item:focus {
+    color: #ffffff;
+    background-color: #404BBF
+
+}
 
 
